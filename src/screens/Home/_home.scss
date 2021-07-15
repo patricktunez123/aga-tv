@@ -1,0 +1,19 @@
+@import "../../_base.scss";
+
+.agatv__hero {
+  height: 100vh;
+  background: url("../../images/hero.jpg");
+  background-size: cover;
+  background-position: top;
+  background-blend-mode: darken;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .hero--content {
+    color: $whiteColor;
+    text-align: center;
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
